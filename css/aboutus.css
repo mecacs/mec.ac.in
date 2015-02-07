@@ -1,0 +1,87 @@
+
+
+
+
+
+.about-us
+{
+
+background-color: white;
+	padding: 1.5em;
+	margin-top: 4em;
+	border-top: 3px solid #005078;
+font-family: "Lato";
+font-weight: 300;
+
+}
+
+.panel-group-lists .panel
+{
+	box-shadow: none;
+	-webkit-box-shadow:none;
+}
+.panel-group .panel-title a
+{
+	padding: 10px 30px;
+	color: #0371A3;
+}
+
+.panel-group .panel-title a:hover
+{
+	color: #0371A3;
+}
+
+
+#carousel-example-generic
+{
+	box-shadow: 0 0 5px 2px rgba(0,0,0,.35);
+}
+
+
+.about-us p
+{
+font-size:16px;
+margin:3%;	
+color: #434A54;
+text-align: justify;
+}
+
+
+.about-us h4
+{
+	
+margin-top: 5px;
+font-family: "Lato";
+font-weight: 300;
+color: #0371A3;
+font-size: 36px;
+}
+
+#vision blockquote{
+	margin-bottom: 50px;
+	border: none;
+}
+
+#mission blockquote{
+	margin-bottom: 50px;
+	border: none;
+}
+
+blockquote {
+font-family: Georgia, serif;
+font-size: 18px;
+font-style: italic;
+margin: 0.25em 0;
+padding: 0.25em 40px;
+line-height: 1.45;
+position: relative;
+color: #383838;
+}
+blockquote:before {
+content: "\201C";
+font-size: 80px;
+color: #7a7a7a;
+}
+blockquote p {
+  display: inline;
+}

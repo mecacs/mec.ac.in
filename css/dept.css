@@ -1,0 +1,171 @@
+#dept .eventhead
+{
+  font-size:18px;
+  font-weight:500;
+}
+
+#dept{
+  margin-bottom: 10%;
+   margin-left: 12%;
+    margin-right: 12%
+}
+
+
+
+#dept #depthead{
+  color:#16a085;
+  font-family: Open Sans; 
+  font-weight: 300; 
+  font-size: 40px; 
+  margin: 35px 0px;
+}
+#dept .deptcont
+{
+	font-family: "Lato";
+	font-weight: 300;
+}
+#dept .hod
+{
+	font-size: 30pt;
+	font-weight:lighter;
+	color:#4B77BE;
+}
+#dept hr{
+    padding: 0px;
+    margin: 0px;    
+  }
+
+   @media screen and (min-width: 980px) {
+    .mypanel{
+        height:500%;
+        
+
+       }
+      }
+
+#dept .mypanel {
+    height: 500%;
+    background-color: white;
+  	box-shadow: 0px 0px 9px 1px #999999; /*shadow change*/
+    border-radius: 6px;
+    width: auto;
+   
+  }
+#dept #myTab1 {
+  width: auto;
+  padding-top: 0px;
+}
+
+
+#dept #myTab1 li a:hover  {
+  border-left: 3px solid #16a085;
+  background-color: #fff;
+  left: -3px;
+
+}
+
+#dept .hod p,h5,li,td {
+  font-family: 'Lato', sans-serif;
+}
+
+#dept .tabs-left .nav-tabs > li:first-child > a {
+    border-radius: 0px 0px 0px ;
+}
+#dept .tabs-left .nav-tabs > li:last-child > a {
+    border-radius: 0px 0px 0px 0px;
+}
+
+#dept .tab-content {
+  padding-left: 20%;  /*was 28%*/
+}
+
+/*my additions*/
+
+#dept .dept-style, #dept p{
+  text-align: justify;
+  padding-right: 3%;
+   font-family: 'Lato';
+  font-size: 16px;
+  font-weight: 300;
+  color: #434A54;
+}
+
+#dept #about, #hod, #faculty, #facilities, #resources, #associations, #achievements{
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+
+/*may cause problem "h4"*/
+#dept h4{
+  font-size: 30px;
+  color: #16a085;
+  font-weight: 200;
+  margin-bottom: 0px;
+}
+
+/*may cause prob "span"*/
+#dept .mypanel span{
+  font-family: 'Lato';
+  font-size: 18px;
+  font-weight: 300;
+  color: #434A54;
+}
+
+#dept #myTab1 li {
+display: block;
+padding: 3px 0px 3px 0px;
+width: auto;
+font-family: 'Lato Hairline';
+font-size: 30px;
+font-weight: 300;
+background-color: white;
+border-top: none;
+text-align: justify;
+}
+
+#dept .line{
+  border-bottom: 1px solid #16a085;
+  margin-right: 3%;
+}
+
+#dept .imag{
+  float: left;
+  padding-right: 10px;
+  height: 90px;
+}
+
+#dept .tb{
+  font-family: "Lato";
+  font-size: 23px;
+  color: rgba(53, 52, 52, 1);
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+#dept .par{
+  margin-left: 10px;
+  font-size: 16px;
+}
+#dept .line1{
+  border-bottom: 1px solid #16a085;
+  margin-right: 25px;
+  margin-left: 96px;  
+}
+
+@media (max-width: 580px){
+  #dept
+{
+  margin-left:4%;
+  margin-right: 4%;
+}
+
+
+#dept .mypanel {
+  margin-left: 0%;
+    margin-right: 0%
+}
+
+}
+
+
+

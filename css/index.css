@@ -1,0 +1,26 @@
+
+
+body
+{
+	background-color:#E9EAEB;
+}
+
+#main-content
+{
+	padding-left: 9%;
+	padding-right: 9%;
+}
+.fontstyle
+{	
+	font-family: "Lato";
+	
+	font-weight: 300;
+}
+
+@media (max-width:580px){
+	#main-content
+	{
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+}

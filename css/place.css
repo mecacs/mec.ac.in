@@ -1,0 +1,79 @@
+
+
+
+#place
+{
+	margin: 9%;
+}
+
+#place h2{
+	color: #575555;
+	margin-bottom: 0;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+
+
+#place h5{
+	font-size: 3em;
+	font-family: "Lato Hairline";
+}
+
+#place .line{
+	border-bottom: 2px solid #575555;
+}
+
+#place #commit td{
+	padding-left: 1em;
+	padding-bottom: 1em;
+	padding-right: 0em;
+
+}
+
+
+
+#place #contact{
+	position: relative;
+	
+}
+
+
+#place .box1{
+	margin-top: 3em;
+	
+	background-color: white;
+	color: #575555;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 2.7em;
+	padding-right: 2.7em;
+	font-size: 14px;
+}
+
+@media only screen and (max-device-width: 767px ) {
+#place .box1 {
+	background-color: white;
+	color: #575555;
+	font-size: 14px;
+}
+
+#place h2 {
+	font-size: 2em;
+}
+}
+
+@media (max-width: 580px){
+
+	#place .box1{
+		padding: 5%;
+	}
+	#place #commit td{
+	padding-left:0px;
+	}
+	#place
+	{
+		margin-right: 4%;
+	margin-left: 4%;
+	}
+}

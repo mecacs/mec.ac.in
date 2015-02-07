@@ -1,0 +1,19 @@
+#arts,#sports
+{
+	padding: 0% 9%;
+}
+
+.fontstyle{
+	font-family: "Lato";
+	font-size: 18px;
+	font-weight: 300;"
+}
+.heading{
+	margin-left: 3%;
+}
+@media (max-width: 580px){
+	#arts,#sports
+	{
+		padding-right: 4%;
+	padding-left: 4%;
+	}

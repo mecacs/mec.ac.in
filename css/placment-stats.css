@@ -1,0 +1,119 @@
+ .about-us h4 /*about us secton's*/
+{
+  margin-left:10px;
+  margin-top:5px;
+  font-family: "lato";
+  font-weight: 300;
+  color: #0371A3;
+  font-size: 30px;
+}
+
+
+
+
+#placementstats
+{
+	background-color: white;
+	margin: 9%;
+
+}
+
+.nopadding
+{
+	padding: 0px;
+}
+#placementstats .placebox
+{
+	padding:3%;
+	width:100%;
+	height:150px;
+	position: relative;
+
+	//avoid blur while placing text
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+
+
+#placementstats .placebox .graphimg 
+{
+	position: relative;
+	margin: 5px;
+	width:13%;
+	min-width: 80px;
+}
+
+
+#placementstats .placebox .para
+{
+	
+	position:relative;
+	top:50%;
+	
+	
+	-webkit-transform: translateY(-50%);
+ 	-ms-transform: translateY(-50%);
+ 	transform: translateY(-50%);
+}
+
+#placementstats .placebox .link
+{
+	font-size:20px;
+	color:#048bca;
+	
+}
+
+@media (max-width:991px){
+
+	#placementstats .placebox .para
+	{
+		top:40%;
+	}
+	#placementstats .placebox .link
+	{
+		font-size:14px;
+	}
+}
+
+
+#intern
+{
+	padding: 9%;
+}
+
+#intern .well {
+	
+	padding:40px;
+}
+
+#intern .well p {
+	text-align: justify;
+	margin-left: 10px;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+#intern .well li {
+	text-align: justify;
+	padding-left: 10px;
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 12px;
+}
+
+@media (max-width: 580px){
+	#placementstats
+	{
+		margin-right: 4%;
+	margin-left: 4%;
+	}
+
+	#intern
+	{
+	padding-left: 4%;
+	padding-right: 4%;
+	}
+}
+

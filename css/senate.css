@@ -1,0 +1,219 @@
+#sen 
+{
+	padding-bottom: 5%;
+	background-color:white;
+	font-family: "Lato";
+	margin:9%;
+	border-top: 3px solid #005078;
+	font-weight: 300;
+}
+
+#sen p {
+	color: #575555;
+	margin: 2em;
+	text-align: justify;
+	font-size: 18px;
+	font-weight: 300;
+
+}
+
+#sen ul li {
+	list-style-type: none;
+	color: #575555;
+	margin-bottom: 1.5em;
+	font-size: 18px;
+}
+
+
+#sen h1{
+	margin-left: 1em;
+	color: #005078;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 2em;
+}
+
+#sen h3,#sen h4
+{
+	position:relative;
+	top:40px;
+	margin-top: 5%;
+	display: inline;
+	color:#575555;
+	font-weight:300;
+	margin-left:5%;	
+}
+#sen h3{
+	font-size: 26px;
+}
+#sen h4
+{
+	
+	top:30px;
+}
+
+#sen .mains
+{
+	padding:16px;
+	margin:5%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	border-bottom: 2px solid #005078;
+}
+
+#sen .mains .pull-right
+{
+
+	margin: 0px;
+	margin-right: 5%;
+}
+
+#sen #last {
+	border-bottom: none;
+}
+#sen .subs
+{
+	padding: 8px;
+	width:30%;
+	float:left;
+	margin: 1%;
+
+
+}
+
+
+#sen .group
+{
+	margin-left: 4%;
+}
+
+@media (max-width:700px){
+	#sen .mains img
+	{
+	
+		float:none !important;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#sen h1
+	{
+		font-size: 2.4em;
+		margin-left: 20px;
+	}
+
+	#sen h3
+	{  
+		margin:0px;
+		text-align: center;
+		top:5px;
+		display: block;
+	}
+
+	#sen h4
+	{
+		font-size: 1.1em;
+	}
+
+	#sen .mains .pull-right
+	{
+		margin:0px;
+		text-align: center;
+		display: block;
+		
+	}
+	#sen h3
+	{	top:0px;
+		margin-bottom: 5px;
+		font-size: 1.6em;
+	}
+	#sen ul li {
+		list-style-type: circle;
+	}
+}
+
+
+@media (max-width: 725px){
+
+	#sen .subs
+	{
+		width:95%;
+	}
+	#sen .mains .pull-right
+	{
+		float: none !important;
+		margin: 0px;
+		margin-left:5%;	
+		margin-right: 5%;
+	}
+}
+
+
+@media (min-width:701px ) and (max-width: 991px){
+
+	#sen .mains img
+	{
+		width:150px ;
+		height:150px;
+	}
+		#sen .subs
+	{
+		width:45%;
+	}
+		#sen .mains .pull-right
+	{
+
+		float: none !important;
+		margin: 0px;
+		margin-left:5%;	
+		margin-right: 5%;
+	}
+	#sen h3
+	{	top:40px;
+		margin-bottom: 5px;
+		font-size: 2em;
+	}
+
+	#sen h1
+	{
+		font-size: 3em;
+	}
+
+	#sen h4
+	{
+		font-size: 1.7em;
+	}
+
+}
+
+
+@media (min-width:991px) and (max-width:1200px){
+
+	
+	#sen.subs
+	{
+		width:45%;
+	}
+#sen .mains .pull-right
+{
+	
+	margin: 0px;
+	margin-left:5%;	
+	margin-right: 5%;
+}
+#sen h3
+{	top:65px;
+	margin-bottom: 5px;
+
+}
+
+}
+
+@media (max-width: 580px){
+	#sen
+	{
+		margin-right: 4%;
+	margin-left: 4%;
+	}
+
+}

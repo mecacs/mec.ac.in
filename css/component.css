@@ -1,0 +1,146 @@
+
+nav a.next {
+	position: relative;
+	top:10%;
+	
+	display: block;
+	outline: none;
+	text-align: left;
+	z-index: 1000;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+nav a.prev {
+	left: 0;
+}
+
+
+
+
+nav a svg {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+
+/*--------------------*/
+/* Thumb flip */
+/*--------------------*/
+.color-7 { background-color: #c1b8ab; }
+
+.nav-thumbflip a {
+	-webkit-perspective: 1000px;
+	perspective: 1000px;
+}
+
+.nav-thumbflip a.prev {
+	-webkit-perspective-origin: 100% 50%;
+	perspective-origin: 100% 50%;
+}
+
+.nav-thumbflip a.next {
+	-webkit-perspective-origin: 0% 50%;
+	perspective-origin: 0% 50%;
+}
+
+
+
+.nav-thumbflip .icon-wrap {
+	display: block;
+	
+	background-color: #e9eaeb;
+	-webkit-transition: background-color 0.3s;
+	transition: background-color 0.3s;
+}
+
+
+.nav-thumbflip svg.icon {
+	position: relative;
+	top: 50%;
+	width: 32px;
+	height: 32px;
+	-webkit-transition: fill 0.3s;
+	transition: fill 0.3s;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	fill: #000;
+}
+
+.nav-thumbflip img {
+	position: absolute;
+	top: 0;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.nav-thumbflip a.prev img {
+	left: 100%;
+	-webkit-transform: rotateY(90deg);
+	transform: rotateY(90deg);
+	-webkit-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+}
+
+.nav-thumbflip a.next img {
+	right: 100%;
+	-webkit-transform: rotateY(-90deg);
+	transform: rotateY(-90deg);
+	-webkit-transform-origin: 100% 50%;
+	transform-origin: 100% 50%;
+}
+
+.nav-thumbflip a:hover .icon-wrap {
+	background-color: #fff;
+}
+
+.nav-thumbflip a:hover svg.icon {
+	fill: #c1b8ab;
+}
+
+.nav-thumbflip a:hover img {
+	-webkit-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+}
+
+
+@media (min-width: 1200px){
+.nav-thumbflip .icon-wrap {
+width: 300px;
+height: 63px;
+}
+
+}
+
+@media (min-width:990px) and (max-width: 1199px){
+.nav-thumbflip .icon-wrap {
+width: 250px;
+height: 53px;
+}
+
+}
+
+@media (min-width: 480px) and (max-width: 990px){
+.nav-thumbflip .icon-wrap {
+width: 225px;
+height: 47px;
+}
+
+}
+
+@media  (max-width: 480px){
+.nav-thumbflip .icon-wrap {
+width: 140px;
+height: 29px;
+}
+
+.nav-thumbflip svg.icon {
+width:25px;
+height: 25px;
+	}
+
+}

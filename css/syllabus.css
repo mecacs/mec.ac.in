@@ -1,0 +1,42 @@
+#syllabus{
+	margin:9%;
+}
+#syllabus h3{
+	color: #e34947;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 2.5em;
+	margin-bottom: 0;
+	margin-top: 1em;
+	border-bottom: 2px solid #e34947;
+
+}
+.box1{
+	background-color: white;
+	padding: 1.5em;
+}
+#syllabus h6{
+	color: #575555;
+}
+
+#syllabus p, span{
+	color: #575555;
+	text-align: center;
+	font-size: 1.25em;
+	width: 11em;
+}
+#syllabus img{
+	margin-left: 2.5em;
+}
+
+#syllabus a{
+	color: #575555;
+	cursor: pointer;
+}
+
+@media (max-width: 580px){
+	#syllabus
+	{
+		margin-right: 4%;
+	margin-left: 4%;
+	}

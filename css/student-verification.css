@@ -1,0 +1,53 @@
+#student{
+	margin:9%;
+}
+#student h3{
+	color: #005078;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 35px;
+	margin-top: 0;
+	
+}
+.box1{
+	background-color: white;
+	padding: 1.5em;
+	border-top: 2px solid #005078;
+	margin-top: 50px;
+}
+#student h4,h5,.box1 ul li{
+	color: #575555 ;
+	font-weight: 300;
+	font-family: "Lato";
+	font-size: 16px;
+	text-align: justify;
+	margin-top: 50px;
+}
+
+#student p, span{
+	color: #575555;
+	text-align: center;
+	font-size: 16px;
+	line-height: 35px;
+	font-weight: 300;
+}
+
+#student img{
+	margin-left: 2.6em;
+}
+
+#student p{
+	text-align: justify;
+}
+
+#student .sign {
+	margin-top: 2px;
+}
+
+@media (max-width: 580px){
+	#student
+	{
+		margin-right: 4%;
+	margin-left: 4%;
+	}
+}

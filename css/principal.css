@@ -1,0 +1,118 @@
+
+
+
+
+#principal{
+	margin-top: 3em;
+	background-color: white;
+	color: #575555;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-left: 6%;
+	padding-right: 6%;
+	font-size: 16px;
+	font-weight: 300;
+	margin:9%;
+}
+
+#foto{
+	margin-right: 30px;
+}
+
+#principal h3{
+	color: #575555;
+	margin-bottom: 0;
+}
+
+#principal h2{
+	font-family: "Open Sans";
+	font-weight: lighter;
+	font-size: 2.5em;
+}
+
+#principal h5{
+	font-size: 1.7em;
+	font-family: "Lato";
+	font-weight: 300;
+}
+
+#principal .line{
+	border-bottom: 3px solid #575555;
+}
+
+#quali td{
+	padding-left: 1.5em;
+	padding-bottom: 1em;
+	padding-right: 0em;
+
+}
+
+#quali .bold
+{
+	font-weight: 700;
+}	
+
+.phone, .mail, #phone, #mail{
+	display: inline-block;
+}
+
+#contact{
+	position: relative;
+	padding-left: 1.5em;
+}
+
+#teach{
+	padding-left: 1.5em;
+}
+
+#exp td{
+	padding-left: 1.7em;
+	padding-bottom: 0.3em;
+
+}
+
+
+@media (max-width: 470px){
+
+
+#foto{
+	margin-right: 0px;
+
+}
+
+#principal h3{
+	color: #575555;
+	margin-bottom: 0;
+	
+}
+
+#principal h2{
+	font-family: "Open Sans";
+	font-weight: lighter;
+	font-size: 2em;
+}
+
+#principal h5{
+	font-size: 0.5;
+	font-family: "Lato Hairline";
+}
+#quali td{
+	padding-left: 5%;
+	
+
+}
+
+#exp td{
+	padding-left: 5%;
+	
+}
+}
+
+@media (max-width: 580px){
+	#principal
+	{
+		margin-right: 4%;
+	margin-left: 4%;
+	}
+
+}

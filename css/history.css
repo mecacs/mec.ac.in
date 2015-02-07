@@ -1,0 +1,95 @@
+#history{
+	margin:9%;
+}
+
+#history h3{
+	color: #005078;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 35px;
+	margin-bottom: 0.5em;
+	margin-top: 0em;
+	
+}
+#history .box1{
+	background-color: white;
+	padding: 1.5em;
+	margin-top: 4em;
+	border-top: 3px solid #005078;
+
+}
+
+#history p{
+	color: #575555;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 300;
+	text-align: justify;
+	padding-bottom: 2.5em;
+}
+
+#history h4 {
+	color: #005078;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 21px;
+	text-align: center;
+
+}
+
+#history .subs
+{
+	padding: 8px;
+	width:30%;
+	float:left;
+	margin: 1%;
+
+
+}
+
+
+#history .group
+{
+	margin-left: 4%;
+}
+
+@media (max-width: 725px){
+
+	#history .subs
+	{
+		width:95%;
+	}
+}
+
+@media (min-width:701px ) and (max-width: 991px){
+
+	
+		#history .subs
+	{
+		width:45%;
+	}
+}
+
+
+@media (min-width:991px) and (max-width:1200px){
+
+	
+	#history .subs
+	{
+		width:45%;
+	}
+}
+
+@media (max-width: 580px){
+	#history
+	{
+		margin-right: 4%;
+	margin-left: 4%;
+	}
+
+}
+
+#history img{
+	padding: 30px 56px 10px;
+
+}

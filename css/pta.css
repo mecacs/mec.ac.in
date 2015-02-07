@@ -1,0 +1,200 @@
+#pta 
+{
+	padding-bottom: 5%;
+	background-color:white;
+	margin-top:5%;
+	margin-bottom:5%;
+	margin-left: 12%;
+	margin-right: 12%;
+}
+
+.nopadding
+{
+	padding: 0px;
+}
+
+#pta h1{
+	margin-left: 2em;
+	color: #af7ac4;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 2em;
+	padding-top: 1em;
+}
+
+#pta h3,#pta h4
+{
+	position:relative;
+	top:70px;
+	margin-top: 5%;
+	display: inline;
+	color:#575555;
+	font-weight:300;
+	margin-left:5%;	
+}
+#pta h3{
+	font-size: 25px;
+}
+#pta h4
+{
+	
+	top:30px;
+}
+
+#pta .mains
+{
+	padding:16px;
+	margin:5%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	border-bottom: 2px solid #af7ac4;
+}
+
+#pta .mains .pull-right
+{
+
+	margin: 0px;
+	margin-right: 5%;
+}
+
+
+#pta .subs
+{
+	padding: 8px;
+	width:30%;
+	float:left;
+	margin: 1%;
+
+
+}
+
+
+#pta .group
+{
+	margin-left: 4%;
+}
+
+@media (max-width:700px){
+	#pta .mains img
+	{
+	
+		float:none !important;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#pta h1
+	{
+		font-size: 2.4em;
+	}
+
+	#pta h3
+	{  
+		margin:0px;
+		text-align: center;
+		top:5px;
+		display: block;
+	}
+
+	#pta h4
+	{
+		font-size: 1.1em;
+	}
+
+	#pta .mains .pull-right
+	{
+		margin:0px;
+		text-align: center;
+		display: block;
+		
+	}
+	#pta h3
+	{	top:0px;
+		margin-bottom: 5px;
+		font-size: 1.6em;
+	}
+}
+
+
+@media (max-width: 725px){
+
+	#pta .subs
+	{
+		width:95%;
+	}
+	#pta .mains .pull-right
+	{
+		float: none !important;
+		margin: 0px;
+		margin-left:5%;	
+		margin-right: 5%;
+	}
+}
+
+
+@media (min-width:701px ) and (max-width: 991px){
+
+	#pta .mains img
+	{
+		width:150px ;
+		height:150px;
+	}
+		#pta .subs
+	{
+		width:45%;
+	}
+		#pta .mains .pull-right
+	{
+
+		float: none !important;
+		margin: 0px;
+		margin-left:5%;	
+		margin-right: 5%;
+	}
+	#pta h3
+	{	top:40px;
+		margin-bottom: 5px;
+		font-size: 2em;
+	}
+
+	#pta h1
+	{
+		font-size: 3em;
+	}
+
+	#pta h4
+	{
+		font-size: 1.7em;
+	}
+
+}
+
+
+@media (min-width:991px) and (max-width:1200px){
+
+	
+	#pta .subs
+	{
+		width:45%;
+	}
+#pta .mains .pull-right
+{
+	
+	margin: 0px;
+	margin-left:5%;	
+	margin-right: 5%;
+}
+#pta h3
+{	top:65px;
+	margin-bottom: 5px;
+
+}
+
+}
+
+
+@media (max-width: 580px){
+	#pta{
+		margin: 4%;
+	}
+}

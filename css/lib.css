@@ -1,0 +1,45 @@
+#library{
+	margin:9%;
+}
+#library h3{
+	color: #e34947;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 2.5em;
+	margin-bottom: 0;
+	margin-top: 1em;
+	border-bottom: 2px solid #e34947;
+
+}
+.box1{
+	background-color: white;
+	padding: 1.5em;
+}
+#library h4,h5,.box1 ul li{
+	color: #575555 ;
+	font-weight: 300;
+	font-family: "Lato";
+	font-size: 14px;
+	text-align: justify;
+}
+
+
+#library p, span{
+	color: #575555;
+	text-align: center;
+	font-size: 14px;
+}
+#library img{
+	margin-left: 2.6em;
+}
+
+#library p{
+	text-align: justify;
+}
+
+@media (max-width: 580px){
+	#library
+	{
+		margin-right: 4%;
+	margin-left: 4%;
+	}
